@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+
+    .btn{
+        @apply hover:text-[#3fb9c7] active:-translate-y-1 transition
+    }
+    .selected{
+      @apply  bg-[#3fb9c7] text-white
+    }
+    .notselect{
+      @apply  text-[#3fb9c7] bg-none
+    }
+    .borderr{
+      @apply  border-2 border-[#3fb9c7]
+    }
+  }
+ 
