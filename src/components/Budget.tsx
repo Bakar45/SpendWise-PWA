@@ -65,7 +65,7 @@ const Budget = ({ tname, total, pic, date, index }: props) => {
               <div className='text-[#42b1a7] text-lg'>PKR {total} <span className='text-sm text-gray-400 '>/ {totalB}</span></div>}
 
 
-            <div className='text- text-gray-500  bottum-0 absolute right-8 -0 '> {date}</div>
+            <div className='text- text-gray-500  bottum-0 absolute  '> {date}</div>
           </div>
           {totalB >= Number(total) &&
             <button className='relaltive mt-[-40px] w-[5%] text-red-500 text-xl' onClick={() => {
